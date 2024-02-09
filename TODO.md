@@ -1,0 +1,5 @@
+- [x] Supprimer le boilerplate Vue.Js
+- [x] Installer Tailwind.css
+- [ ] Créer le dépot Github
+- [ ] Récupérer toutes les assets
+- [ ] Définir les composants
