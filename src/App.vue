@@ -1,10 +1,90 @@
-<script setup></script>
+<script setup>
+import Header from '@/components/Header.vue';
+import HeadingSection from './components/HeadingSection.vue';
+import Button from './components/Button.vue';
+import Footer from './components/Footer.vue';
+</script>
 
 <template>
-    <div>
-        <h1 className="text-4xl font-bold underline">Hello world!</h1>
-        <img src="@/assets/img/newsletter_illustration.svg" alt="" srcset="" />
-    </div>
+    <Header />
+    <main>
+        <section>
+            <HeadingSection />
+            <div><!-- 3 columns section--></div>
+            <img src="@/assets/img/video_thumbnail.png" alt="" />
+        </section>
+
+        <section>
+            <!-- 2 columns section -->
+            <div>
+                <HeadingSection />
+                <Button />
+            </div>
+            <div>
+                <img src="@/assets/img/macbook.png" alt="" />
+            </div>
+        </section>
+
+        <section>
+            <!-- 2 columns section -->
+            <div>
+                <img src="@/assets/img/newsletter_illustration.svg" alt="" />
+            </div>
+            <div>
+                <span>At your fingertips</span>
+                <h2>Lightning fast prototyping</h2>
+                <p>Subscribe to our Newsletter</p>
+                <p>Available exclusivery on Figmaland</p>
+                <form action="">
+                    <input type="text" />
+                    <Button />
+                </form>
+            </div>
+        </section>
+
+        <section>
+            <HeadingSection />
+            <div>
+                <!-- Compagny grid-->
+            </div>
+            <Button />
+        </section>
+
+        <section>
+            <HeadingSection />
+            <div>
+                <!-- Avatar -->
+            </div>
+            <Button />
+        </section>
+
+        <section>
+            <HeadingSection />
+            <div>
+                <!-- Pricing Cards -->
+            </div>
+        </section>
+
+        <section>
+            <HeadingSection />
+            <div>
+                <!-- 2 columns -->
+                <div>
+                    <form action=""></form>
+                </div>
+                <div>
+                    <div>
+                        <!-- 3 columns-->
+                    </div>
+                    <img src="@/assets/img/map.png" alt="" />
+                    <div>
+                        <!-- Socials-->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <Footer />
 </template>
 
 <style scoped></style>
