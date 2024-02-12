@@ -18,7 +18,7 @@ import Footer from './components/Footer.vue';
             <!-- 2 columns section -->
             <div>
                 <HeadingSection />
-                <Button />
+                <Button>Try For Free</Button>
             </div>
             <div>
                 <img src="@/assets/img/macbook.png" alt="" />
@@ -37,7 +37,7 @@ import Footer from './components/Footer.vue';
                 <p>Available exclusivery on Figmaland</p>
                 <form action="">
                     <input type="text" />
-                    <Button />
+                    <Button>Subscribe</Button>
                 </form>
             </div>
         </section>
@@ -47,7 +47,7 @@ import Footer from './components/Footer.vue';
             <div>
                 <!-- Compagny grid-->
             </div>
-            <Button />
+            <Button>Try For Free</Button>
         </section>
 
         <section>
@@ -55,7 +55,7 @@ import Footer from './components/Footer.vue';
             <div>
                 <!-- Avatar -->
             </div>
-            <Button />
+            <Button>More Testimonials</Button>
         </section>
 
         <section>

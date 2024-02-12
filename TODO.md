@@ -1,5 +1,14 @@
-- [x] Supprimer le boilerplate Vue.Js
-- [x] Installer Tailwind.css
-- [ ] Créer le dépot Github
-- [ ] Récupérer toutes les assets
-- [ ] Définir les composants
+-   [x] Supprimer le boilerplate Vue.Js
+-   [x] Installer Tailwind.css
+-   [x] Créer le dépot Github
+-   [x] Récupérer toutes les assets
+-   [ ] Définir les composants
+    -   [x] Header
+    -   [x] Navbar
+    -   [ ] Button (Primary / secondary)
+    -   [ ] Footer
+    -   [ ] Heading Section
+    -   [ ] Pricing Card
+    -   [ ] Form
+-   [ ] Installer le lint pour trier automatiquement les class Tailwind
+-
