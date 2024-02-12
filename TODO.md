@@ -10,5 +10,5 @@
     -   [ ] Heading Section
     -   [ ] Pricing Card
     -   [ ] Form
--   [ ] Installer le lint pour trier automatiquement les class Tailwind
+-   [x] Installer le lint pour trier automatiquement les class Tailwind
 -

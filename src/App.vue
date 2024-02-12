@@ -8,13 +8,13 @@ import Footer from './components/Footer.vue';
 <template>
     <Header />
     <main>
-        <section>
+        <section class="lg:px-64 lg:pb-20">
             <HeadingSection />
             <div><!-- 3 columns section--></div>
             <img src="@/assets/img/video_thumbnail.png" alt="" />
         </section>
 
-        <section>
+        <section class="lg:px-64 lg:py-20">
             <!-- 2 columns section -->
             <div>
                 <HeadingSection />
@@ -25,7 +25,7 @@ import Footer from './components/Footer.vue';
             </div>
         </section>
 
-        <section>
+        <section class="lg:px-64 lg:py-20">
             <!-- 2 columns section -->
             <div>
                 <img src="@/assets/img/newsletter_illustration.svg" alt="" />
@@ -42,7 +42,7 @@ import Footer from './components/Footer.vue';
             </div>
         </section>
 
-        <section>
+        <section class="lg:px-64 lg:py-20">
             <HeadingSection />
             <div>
                 <!-- Compagny grid-->
@@ -50,7 +50,7 @@ import Footer from './components/Footer.vue';
             <Button>Try For Free</Button>
         </section>
 
-        <section>
+        <section class="lg:px-64 lg:py-20">
             <HeadingSection />
             <div>
                 <!-- Avatar -->
@@ -58,14 +58,14 @@ import Footer from './components/Footer.vue';
             <Button>More Testimonials</Button>
         </section>
 
-        <section>
+        <section class="lg:px-64 lg:py-20">
             <HeadingSection />
             <div>
                 <!-- Pricing Cards -->
             </div>
         </section>
 
-        <section>
+        <section class="lg:px-64 lg:py-20">
             <HeadingSection />
             <div>
                 <!-- 2 columns -->

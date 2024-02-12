@@ -13,11 +13,11 @@ const props = defineProps({
 
 <template>
     <button
-        class="text-xl px-10 py-3 rounded-full"
+        class="rounded-full px-10 py-3 text-xl"
         :class="
             variant === 'secondary'
                 ? 'bg-white text-primary'
-                : 'text-white bg-primary'
+                : 'bg-primary text-white'
         "
     >
         <slot></slot>
