@@ -14,7 +14,6 @@ import Button from './Button.vue'
                     <li>Pricing</li>
                     <li>About</li>
                     <li>Contact</li>
-                    <li>Test</li>
                 </ul>
             </div>
 
@@ -47,7 +46,7 @@ import Button from './Button.vue'
                 The best products start with Figma
             </h1>
             <p
-                class="mt-7 max-w-52 text-center text-2xl lg:mb-24 lg:mt-8 lg:max-w-2xl"
+                class="mb-24 mt-7 max-w-52 text-center text-2xl lg:mt-8 lg:max-w-2xl"
             >
                 Most calendars are designed for teams.
                 <span class="hidden lg:inline">

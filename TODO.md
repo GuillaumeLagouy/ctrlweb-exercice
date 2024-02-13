@@ -5,10 +5,24 @@
 -   [ ] Définir les composants
     -   [x] Header
     -   [x] Navbar
-    -   [ ] Button (Primary / secondary)
+    -   [x] Button (Primary / secondary)
     -   [ ] Footer
-    -   [ ] Heading Section
+    -   [x] Heading Section
     -   [ ] Pricing Card
     -   [ ] Form
--   [x] Installer le lint pour trier automatiquement les class Tailwind
--
+-   [x] Installer le linter pour trier automatiquement les class Tailwind
+-   [ ] Intégrer
+    -   [x] Header desktop
+    -   [x] Header mobile
+    -   [x] Section Features desktop
+    -   [x] Section Features mobile
+    -   [x] Section Partners desktop
+    -   [x] Section Partners mobile
+    -   [ ] Section Testimonials desktop
+    -   [ ] Section Testimonials mobile
+    -   [ ] Section Pricing desktop
+    -   [ ] Section Pricing mobile
+    -   [ ] Section Contact us desktop
+    -   [ ] Section Contact us mobile
+    -   [ ] Footer desktop
+    -   [ ] Footer mobile

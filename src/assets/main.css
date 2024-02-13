@@ -9,3 +9,8 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+h2,
+h3 {
+    color: #252b42;
+}

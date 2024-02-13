@@ -1,10 +1,11 @@
 <script setup></script>
 
 <template>
-    <h2>Heading section title</h2>
-    <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni eius nam
-        alias vero earum atque.
+    <h2 class="mb-4 text-5xl">
+        <slot name="title"></slot>
+    </h2>
+    <p class="text-custom-gray text-xl">
+        <slot name="content"></slot>
     </p>
 </template>
 
