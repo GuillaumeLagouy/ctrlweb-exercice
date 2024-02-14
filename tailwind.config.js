@@ -13,6 +13,7 @@ export default {
                 'custom-gray': '#374754',
                 cream: '#F4F4F4',
                 'darker-cream': '#E8E8E8',
+                'custom-dark-blue': '#252B42',
             },
         },
     },

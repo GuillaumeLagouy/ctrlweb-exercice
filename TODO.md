@@ -18,11 +18,12 @@
     -   [x] Section Features mobile
     -   [x] Section Partners desktop
     -   [x] Section Partners mobile
-    -   [ ] Section Testimonials desktop
-    -   [ ] Section Testimonials mobile
-    -   [ ] Section Pricing desktop
-    -   [ ] Section Pricing mobile
-    -   [ ] Section Contact us desktop
-    -   [ ] Section Contact us mobile
+    -   [x] Section Testimonials desktop
+    -   [x] Section Testimonials mobile
+    -   [x] Section Pricing desktop
+    -   [x] Section Pricing mobile
+    -   [x] Section Contact us desktop
+    -   [x] Section Contact us mobile
     -   [ ] Footer desktop
     -   [ ] Footer mobile
+-   [ ] Repasser sur la couleur des textes

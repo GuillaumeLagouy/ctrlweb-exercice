@@ -3,6 +3,7 @@ import Header from '@/components/Header.vue'
 import HeadingSection from './components/HeadingSection.vue'
 import Button from './components/Button.vue'
 import GridCompany from './components/GridCompany.vue'
+import PricingCard from './components/PricingCard.vue'
 import Footer from './components/Footer.vue'
 </script>
 
@@ -148,35 +149,162 @@ import Footer from './components/Footer.vue'
             <Button class="self-center">Try For Free</Button>
         </section>
 
-        <section class="lg:px-64 lg:py-20">
-            <HeadingSection />
-            <div>
-                <!-- Avatar -->
+        <section class="flex flex-col items-center py-20 text-center lg:px-64">
+            <HeadingSection image-path="src/assets/img/company/IBM.png">
+                <template v-slot:title>Testimonials</template>
+                <template v-slot:content>
+                    Most calendars are designed for teams. Slate is designed for
+                    freelancers<br />
+                    who want a simple way to plan their schedule.
+                </template>
+            </HeadingSection>
+            <div class="text-custom-gray my-10 flex text-left">
+                <img src="@/assets/img/avatar.png" alt="" />
+                <p>Organize across <br />Ui designer</p>
             </div>
             <Button>More Testimonials</Button>
         </section>
 
-        <section class="lg:px-64 lg:py-20">
-            <HeadingSection />
-            <div>
-                <!-- Pricing Cards -->
+        <section class="bg-custom-dark-blue flex flex-col px-10 py-20 xl:px-56">
+            <HeadingSection>
+                <template v-slot:title>
+                    <div class="text-center text-white">Pricing</div>
+                </template>
+                <template v-slot:content>
+                    <div class="text-center text-white">
+                        Most calendars are designed for teams.<br />
+                        Slate is designed for freelancers
+                    </div>
+                </template>
+            </HeadingSection>
+
+            <!-- Pricing Cards -->
+            <div
+                class="mt-20 flex flex-col justify-between gap-y-12 lg:flex-row lg:items-center lg:gap-x-12 lg:gap-y-0"
+            >
+                <PricingCard
+                    tier="free"
+                    description="Organize across all apps by hand"
+                    price="0"
+                />
+                <PricingCard
+                    tier="standard"
+                    description="Organize across all apps by hand"
+                    price="10"
+                    variant="large"
+                />
+                <PricingCard
+                    tier="business"
+                    description="Organize across all apps by hand"
+                    price="99"
+                />
             </div>
         </section>
 
-        <section class="lg:px-64 lg:py-20">
-            <HeadingSection />
-            <div>
-                <!-- 2 columns -->
-                <div>
-                    <form action=""></form>
-                </div>
-                <div>
-                    <div>
-                        <!-- 3 columns-->
+        <section class="flex flex-col py-20 xl:px-56">
+            <HeadingSection>
+                <template v-slot:title>
+                    <div class="text-center">Contact Us</div>
+                </template>
+                <template v-slot:content>
+                    <div class="text-center">
+                        Most calendars are designed for teams.<br />
+                        Slate is designed for freelancers
                     </div>
-                    <img src="@/assets/img/map.png" alt="" />
-                    <div>
-                        <!-- Socials-->
+                </template>
+            </HeadingSection>
+
+            <div class="mt-20 flex flex-col lg:flex-row lg:justify-between">
+                <!-- 2 columns -->
+                <div class="order-2 mx-5 lg:order-1 lg:mx-0">
+                    <form
+                        class="flex flex-col gap-y-10 rounded-2xl border border-gray-300 bg-white p-8 drop-shadow-md"
+                        action=""
+                    >
+                        <h4 class="text-center">Contact Us</h4>
+                        <input
+                            class="bg-cream border-darker-cream mb-2 rounded-full border py-3 pl-5 lg:mb-0 lg:grow"
+                            type="text"
+                            placeholder="Your Name"
+                        />
+                        <input
+                            class="bg-cream border-darker-cream mb-2 rounded-full border py-3 pl-5 lg:mb-0 lg:grow"
+                            type="text"
+                            placeholder="Your Email"
+                        />
+                        <textarea
+                            class="bg-cream border-darker-cream mb-2 border py-3 pl-5 lg:mb-0 lg:grow"
+                            name=""
+                            id=""
+                            cols="30"
+                            rows="10"
+                            placeholder="Your Message"
+                        ></textarea>
+
+                        <Button class="self-start">Send</Button>
+                    </form>
+                </div>
+                <div class="order-1 flex flex-col lg:order-2">
+                    <div
+                        class="order-2 mx-5 my-10 flex flex-col gap-y-4 lg:order-1 lg:mx-0 lg:my-0 lg:flex-row lg:gap-x-6"
+                    >
+                        <div class="flex items-center lg:flex-col lg:gap-y-2">
+                            <div class="w-7 lg:h-9">
+                                <img
+                                    src="@/assets/icons/landmark_blue.svg"
+                                    alt="Landmark icon"
+                                />
+                            </div>
+
+                            <p
+                                class="pl-5 text-left text-sm lg:pl-0 lg:text-center"
+                            >
+                                6386 Spring St undefined Anchorage,<br />
+                                Georgia 12473 United States
+                            </p>
+                        </div>
+                        <div class="flex items-center lg:flex-col lg:gap-y-2">
+                            <div class="w-7 lg:h-9">
+                                <img
+                                    src="@/assets/icons/phone_blue.svg"
+                                    alt="Phone icon"
+                                />
+                            </div>
+
+                            <p class="pl-5 text-sm lg:pl-0">(843) 555-0130</p>
+                        </div>
+                        <div class="flex items-center lg:flex-col lg:gap-y-2">
+                            <div class="w-7 lg:h-9">
+                                <img
+                                    src="@/assets/icons/letter_blue.svg"
+                                    alt="Letter icon"
+                                />
+                            </div>
+                            <p class="pl-5 text-sm lg:pl-0">
+                                willie.jennings@example.com
+                            </p>
+                        </div>
+                    </div>
+                    <img
+                        class="hidden self-center lg:order-2 lg:my-20 lg:block"
+                        src="@/assets/img/map.png"
+                        alt=""
+                    />
+                    <div
+                        class="order-1 flex justify-center gap-x-6 lg:order-3 lg:justify-start"
+                    >
+                        <img
+                            src="@/assets/icons/twitter_blue.svg"
+                            alt="Twitter icon"
+                        />
+                        <img
+                            src="@/assets/icons/facebook_blue.svg"
+                            alt="Facebook icon"
+                        />
+                        <img
+                            src="@/assets/icons/linkedin_blue.svg"
+                            alt="Linkedin icon"
+                        />
                     </div>
                 </div>
             </div>
@@ -185,4 +313,10 @@ import Footer from './components/Footer.vue'
     <Footer />
 </template>
 
-<style scoped></style>
+<style scoped>
+/* #contactInfo {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+} */
+</style>
