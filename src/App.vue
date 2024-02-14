@@ -313,10 +313,4 @@ import Footer from './components/Footer.vue'
     <Footer />
 </template>
 
-<style scoped>
-/* #contactInfo {
-    display: inline-grid;
-    grid-template-columns: auto auto auto;
-    justify-items: center;
-} */
-</style>
+<style scoped></style>
