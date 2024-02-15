@@ -150,7 +150,7 @@ import Footer from './components/Footer.vue'
         </section>
 
         <section class="flex flex-col items-center py-20 text-center lg:px-64">
-            <HeadingSection image-path="src/assets/img/company/IBM.png">
+            <HeadingSection image-path="/company/IBM.png">
                 <template v-slot:title>Testimonials</template>
                 <template v-slot:content>
                     Most calendars are designed for teams. Slate is designed for
