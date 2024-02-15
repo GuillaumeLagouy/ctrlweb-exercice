@@ -20,26 +20,47 @@ const props = defineProps({
     <div
         :class="
             variant === 'large'
-                ? 'border-cream border bg-primary py-10 text-white lg:py-20'
+                ? 'border border-cream bg-primary py-10 text-white lg:py-20'
                 : 'bg-white py-10'
         "
         class="flex w-full flex-col items-center gap-y-7 rounded-lg px-10"
     >
         <div>
-            <h4 class="text-center font-bold uppercase">{{ tier }}</h4>
-            <p class="text-center text-sm lg:max-w-36">{{ description }}</p>
+            <h4
+                class="text-center font-bold uppercase"
+                :class="
+                    variant === 'large' ? 'text-white' : 'text-custom-dark-blue'
+                "
+            >
+                {{ tier }}
+            </h4>
+            <p
+                class="text-center text-sm lg:max-w-36"
+                :class="variant === 'large' ? 'text-white' : 'text-custom-gray'"
+            >
+                {{ description }}
+            </p>
         </div>
 
         <!-- Price-->
         <div class="flex items-center gap-x-3">
-            <span class="text-6xl font-bold leading-none">{{ price }}</span>
-            <div class="flex flex-col">
+            <span
+                class="text-6xl font-bold leading-none"
+                :class="
+                    variant === 'large' ? 'text-white' : 'text-custom-dark-blue'
+                "
+                >{{ price }}</span
+            >
+            <div
+                class="flex flex-col"
+                :class="variant === 'large' ? 'text-white' : 'text-custom-gray'"
+            >
                 <span class="text-lg font-bold leading-none">$</span>
                 <span class="leading-none">Per Month</span>
             </div>
         </div>
 
-        <ul class="">
+        <ul :class="variant === 'large' ? 'text-white' : 'text-custom-gray'">
             <li class="py-2">Pricing Feature</li>
             <li class="py-2">Pricing Feature</li>
             <li class="py-2">Pricing Feature</li>

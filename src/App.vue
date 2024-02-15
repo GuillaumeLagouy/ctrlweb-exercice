@@ -117,12 +117,12 @@ import Footer from './components/Footer.vue'
 
             <div class="order-3 text-center lg:-order-none lg:text-left">
                 <h3 class="text-lg">Subscribe to our Newsletter</h3>
-                <p class="text-custom-gray mb-4">
+                <p class="mb-4 text-custom-gray">
                     Available exclusivery on Figmaland
                 </p>
                 <form class="flex flex-col lg:flex-row lg:gap-x-3" action="">
                     <input
-                        class="bg-cream border-darker-cream mb-2 rounded-full border py-3 pl-5 lg:mb-0 lg:grow"
+                        class="mb-2 rounded-full border border-darker-cream bg-cream py-3 pl-5 lg:mb-0 lg:grow"
                         type="text"
                         placeholder="Your Email"
                     />
@@ -158,14 +158,14 @@ import Footer from './components/Footer.vue'
                     who want a simple way to plan their schedule.
                 </template>
             </HeadingSection>
-            <div class="text-custom-gray my-10 flex text-left">
+            <div class="my-10 flex text-left text-custom-gray">
                 <img src="@/assets/img/avatar.png" alt="" />
                 <p>Organize across <br />Ui designer</p>
             </div>
             <Button>More Testimonials</Button>
         </section>
 
-        <section class="bg-custom-dark-blue flex flex-col px-10 py-20 xl:px-56">
+        <section class="flex flex-col bg-custom-dark-blue px-10 py-20 xl:px-56">
             <HeadingSection>
                 <template v-slot:title>
                     <div class="text-center text-white">Pricing</div>
@@ -221,19 +221,21 @@ import Footer from './components/Footer.vue'
                         class="flex flex-col gap-y-10 rounded-2xl border border-gray-300 bg-white p-8 drop-shadow-md"
                         action=""
                     >
-                        <h4 class="text-center">Contact Us</h4>
+                        <h4 class="text-center font-bold text-custom-dark-blue">
+                            Contact Us
+                        </h4>
                         <input
-                            class="bg-cream border-darker-cream mb-2 rounded-full border py-3 pl-5 lg:mb-0 lg:grow"
+                            class="mb-2 rounded-full border border-darker-cream bg-cream py-3 pl-5 lg:mb-0 lg:grow"
                             type="text"
                             placeholder="Your Name"
                         />
                         <input
-                            class="bg-cream border-darker-cream mb-2 rounded-full border py-3 pl-5 lg:mb-0 lg:grow"
+                            class="mb-2 rounded-full border border-darker-cream bg-cream py-3 pl-5 lg:mb-0 lg:grow"
                             type="text"
                             placeholder="Your Email"
                         />
                         <textarea
-                            class="bg-cream border-darker-cream mb-2 border py-3 pl-5 lg:mb-0 lg:grow"
+                            class="mb-2 border border-darker-cream bg-cream py-3 pl-5 lg:mb-0 lg:grow"
                             name=""
                             id=""
                             cols="30"
@@ -257,7 +259,7 @@ import Footer from './components/Footer.vue'
                             </div>
 
                             <p
-                                class="pl-5 text-left text-sm lg:pl-0 lg:text-center"
+                                class="pl-5 text-left text-sm text-custom-gray lg:pl-0 lg:text-center"
                             >
                                 6386 Spring St undefined Anchorage,<br />
                                 Georgia 12473 United States
@@ -271,7 +273,9 @@ import Footer from './components/Footer.vue'
                                 />
                             </div>
 
-                            <p class="pl-5 text-sm lg:pl-0">(843) 555-0130</p>
+                            <p class="pl-5 text-sm text-custom-gray lg:pl-0">
+                                (843) 555-0130
+                            </p>
                         </div>
                         <div class="flex items-center lg:flex-col lg:gap-y-2">
                             <div class="w-7 lg:h-9">
@@ -280,7 +284,7 @@ import Footer from './components/Footer.vue'
                                     alt="Letter icon"
                                 />
                             </div>
-                            <p class="pl-5 text-sm lg:pl-0">
+                            <p class="pl-5 text-sm text-custom-gray lg:pl-0">
                                 willie.jennings@example.com
                             </p>
                         </div>

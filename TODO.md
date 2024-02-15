@@ -24,6 +24,6 @@
     -   [x] Section Pricing mobile
     -   [x] Section Contact us desktop
     -   [x] Section Contact us mobile
-    -   [ ] Footer desktop
-    -   [ ] Footer mobile
--   [ ] Repasser sur la couleur des textes
+    -   [x] Footer desktop
+    -   [x] Footer mobile
+-   [x] Repasser sur la couleur des textes
